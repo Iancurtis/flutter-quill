@@ -914,6 +914,16 @@ class RawEditorState extends EditorState
       _floatingCursorResetController;
 
   late AnimationController _floatingCursorResetController;
+          
+  @override
+  void insertTextPlaceholder(Size size) {
+    // TODO: implement insertTextPlaceholder
+  }
+
+  @override
+  void removeTextPlaceholder() {
+    // TODO: implement removeTextPlaceholder
+  }
 }
 
 class _Editor extends MultiChildRenderObjectWidget {
